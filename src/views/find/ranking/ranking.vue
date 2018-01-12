@@ -36,7 +36,7 @@
   import api from '../../../api/index';
   import vSongsList from '../../../components/list/find/ranking/songsList';
   // wRL为全球榜单
-  import wRL from '../../../../static/mock/wRL.json';
+  // import wRL from '../../../../static/mock/wRL.json';
   export default {
     name: 'v-ranking',
     data () {
@@ -49,7 +49,7 @@
         newSongesInfo: {},
         originalInfo: {},
         hotInfo: {},
-        rankingList: wRL.rankingList
+        rankingList: {}
       };
     },
     mounted: function() {
